@@ -11,7 +11,7 @@ let primaryImages = [
   "img/pebbles.png",
   "img/creammac.jpg",
   "img/greenmac.jpg",
-  "img/codey1.jpg
+  "img/codey1.jpg"
 ];
 let titles = [
   "Seagull",

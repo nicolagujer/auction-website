@@ -12,17 +12,6 @@ let primaryImages = [
   "img/creammac.jpg",
   "img/greenmac.jpg"
 ];
-let secondaryImages = [
-  "img/seagull.jpg",
-  "img/raccoon.jpg",
-  "img/duck.jpg",
-  "img/penguin.jpg",
-  "img/codey1.jpg",
-  "img/mrmeeseeks.jpg",
-  "img/pebbles.png",
-  "img/creammac.jpg",
-  "img/greenmac.jpg"
-];
 let titles = [
   "Seagull",
   "Raccoon",
@@ -56,7 +45,17 @@ let details = [
   "Cotton cord",
   "Cotton cord"
 ];
-let secondaryImages = [];
+let secondaryImages = [
+"img/seagull.jpg",
+  "img/raccoon.jpg",
+  "img/duck.jpg",
+  "img/penguin.jpg",
+  "img/codey1.jpg",
+  "img/mrmeeseeks.jpg",
+  "img/pebbles.png",
+  "img/creammac.jpg",
+  "img/greenmac.jpg"
+];
 let startingPrices = [60, 60, 60, 40, 50, 20, 60, 40, 40];
 // Currently midday 24th November https://www.epochconverter.com/
 let endTimes = [

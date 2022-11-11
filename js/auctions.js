@@ -73,7 +73,7 @@ let endTimes = [
   1669244400000,
   1669244400000,
   1669244400000,
-  1668146881000
+  1668233372000
 ]; // Make sure to fix these to UTC time so they don't change with the users timezone
 
 // Random auction information

@@ -1,13 +1,57 @@
 // For a real auction, set this to false
-let demoAuction = true;
+let demoAuction = false;
 // For a real auction, populate these arrays
-let primaryImages = [];
-let titles = [];
-let subtitles = [];
-let details = [];
+let primaryImages = [
+  "img/seagull.jpg",
+  "img/raccoon.jpg",
+  "img/duck.jpg",
+  "img/penguin.jpg",
+  "img/codey.jpg",
+  "img/mrmeeseeks.jpg",
+  "img/pebbles.png",
+  "img/creammac.jpg",
+  "img/greenmac.jpg"
+];
+let titles = [
+  "Seagull",
+  "Raccoon",
+  "Duck",
+  "Penguin Lovey/Security Blanket",
+  "Codey",
+  "Mr Meeseeks",
+  "Pebbles",
+  "Cream Macrame",
+  "Green Macrame"
+];
+let subtitles = [
+  "Crochet toy",
+  "Crochet toy",
+  "Crochet toy",
+  "Crochet toy",
+  "Crochet toy",
+  "Crochet toy",
+  "Crochet toy",
+  "Macrame",
+  "Macrame"
+];
+let details = [
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)"
+];
 let secondaryImages = [];
-let startingPrices = [55, 60, 20, 0, 4, 0, 99, 0, 12, 6, 3, 7];
-let endTimes = []; // Make sure to fix these to UTC time so they don't change with the users timezone
+let startingPrices = [60, 60, 60, 40, 50, 20, 60, 40, 40];
+// Currently midday 24th November https://www.epochconverter.com/
+let endTimes = [
+  1669244400000,
+  1669244400000,
+  1669244400000,
+  1669244400000,
+  1669244400000,
+  1669244400000,
+  1669244400000,
+  1669244400000,
+  1669244400000,
+]; // Make sure to fix these to UTC time so they don't change with the users timezone
 
 // Random auction information
 function generateRandomAuctions() {

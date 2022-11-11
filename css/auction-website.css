@@ -20,3 +20,7 @@ html * {
 .table {
   margin-bottom: 0;
 }
+
+#auction-container {
+  padding-top: 12px;
+}

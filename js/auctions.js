@@ -174,7 +174,7 @@ function setClocks() {
 // Place a bid on an item
 function placeBid() {
   let nowTime = new Date().getTime();
-  let modalBidButton = document.querySelector("#bid-modal > div > div > div.modal-footer > button.btn.btn-info")
+  let modalBidButton = document.querySelector("#bid-modal > div > div > div.modal-footer > button.btn.btn-primary")
   modalBidButton.setAttribute('disabled', '') // disable the button while we check
   let i = modalBidButton.id.match("[0-9]+");
   let feedback = document.getElementById("bad-amount-feedback")
@@ -331,7 +331,7 @@ function generateAuctionCard(i) {
   let bidButton = document.createElement("button");
   bidButton.type = "button"
   bidButton.href = "#";
-  bidButton.classList.add("btn", "btn-info")
+  bidButton.classList.add("btn", "btn-primary")
   bidButton.innerText = "Submit bid";
   bidButton.onclick = function () { openBid(this.id); }
   bidButton.id = "bid-button-" + i

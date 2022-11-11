@@ -30,10 +30,18 @@
 <body>
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js"></script>
 
+  // new
+  // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+  //end new
+  
   <script>
     // Your web app's Firebase configuration
     const firebaseConfig = {
@@ -49,6 +57,12 @@
     firebase.initializeApp(firebaseConfig);
     var db = firebase.firestore();
     var auth = firebase.auth();
+    
+    //new
+    // Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+    //end new
   </script>
   <!-- Navbar -->
   <nav class="navbar navbar-light" style="background-color: #b2d5ed;">
@@ -132,7 +146,7 @@
         </div>
         <div class="modal-body">
           <p>You are about to place a bid on <strong id="bid-modal-subtitle"></strong></p>
-          <p class="text-muted">(This is just a demo, you're not bidding real money)</p>
+          //<p class="text-muted">(This is just a demo, you're not bidding real money)</p>
           <form onsubmit="return false;">
             <div class="form-floating mb-3">
               <input type="amount" class="form-control" id="amount-input" placeholder="amount"

@@ -12,6 +12,17 @@ let primaryImages = [
   "img/creammac.jpg",
   "img/greenmac.jpg"
 ];
+let secondaryImages = [
+  "img/seagull.jpg",
+  "img/raccoon.jpg",
+  "img/duck.jpg",
+  "img/penguin.jpg",
+  "img/codey1.jpg",
+  "img/mrmeeseeks.jpg",
+  "img/pebbles.png",
+  "img/creammac.jpg",
+  "img/greenmac.jpg"
+];
 let titles = [
   "Seagull",
   "Raccoon",
@@ -36,7 +47,14 @@ let subtitles = [
 ];
 let details = [
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
-  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)"
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
+  "Acrylic yarn, embroidered eyes (baby safe!)",
+  "Cotton yarn, safety eyes (not recommended for ages 3 and under)",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
+  "Cotton cord",
+  "Cotton cord"
 ];
 let secondaryImages = [];
 let startingPrices = [60, 60, 60, 40, 50, 20, 60, 40, 40];

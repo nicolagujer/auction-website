@@ -11,6 +11,7 @@ let primaryImages = [
   "img/pebbles.png",
   "img/creammac.png",
   "img/greenmac.png",
+  "img/pinkmac.png"
   "img/starry.png"
 ];
 let titles = [
@@ -23,6 +24,7 @@ let titles = [
   "Pebbles",
   "Cream Macrame",
   "Green Macrame",
+  "Pink Macrame",
   "Starry Night Framed Crochet"
 ];
 let subtitles = [
@@ -33,6 +35,7 @@ let subtitles = [
   "Crochet toy",
   "Crochet toy",
   "Crochet toy",
+  "Macrame",
   "Macrame",
   "Macrame",
   "Crochet"
@@ -47,6 +50,7 @@ let details = [
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
   "Cotton cord",
   "Cotton cord",
+  "Cotton cord",
   "Framed in a shadow box"
 ];
 let secondaryImages = [
@@ -57,13 +61,15 @@ let secondaryImages = [
   "img/codey1.jpg",
   "img/mrmeeseeks.jpg",
   "img/pebbles.png",
-  "img/creammac.jpg",
-  "img/greenmac.jpg",
+  "img/creammac.png",
+  "img/greenmac.png",
+  'img/pinkmac.png'
   "img/starry.png"
 ];
-let startingPrices = [60, 60, 60, 40, 50, 20, 60, 40, 40, 30];
+let startingPrices = [60, 60, 60, 40, 50, 20, 60, 40, 40, 40, 30];
 // Currently 2pm 24th November https://www.epochconverter.com/
 let endTimes = [
+  1669251600000,
   1669251600000,
   1669251600000,
   1669251600000,

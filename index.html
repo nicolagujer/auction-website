@@ -33,7 +33,7 @@
   <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
-  
+
   <script>
     // Your web app's Firebase configuration
     const firebaseConfig = {
@@ -82,16 +82,16 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 id="login-modal-title" class="modal-title">Sign up for Markatplace Auction</h5>
+          <h5 id="login-modal-title" class="modal-title">Sign up for Crochet Auction</h5>
         </div>
         <div class="modal-body">
           <p>We use anonymous authentication provided by Google. Your account is attached to your device signature.</p>
-          <p>The username just lets us know who's bidding!</p>
+          <p>Please enter your full name so I know who's bidding! (This will not be visible to others)</p>
           <form onsubmit="return false;">
             <div class="form-floating mb-3">
               <input type="username" class="form-control" id="username-input" placeholder="username"
                 onkeypress="if (event.key == 'Enter') {newUserLogin()}">
-              <label for="username-input">Username</label>
+              <label for="username-input">Full Name</label>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"

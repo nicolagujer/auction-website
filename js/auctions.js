@@ -9,9 +9,9 @@ let primaryImages = [
   "img/codey.jpg",
   "img/mrmeeseeks.jpg",
   "img/pebbles.png",
-  "img/creammac.jpg",
-  "img/greenmac.jpg",
-  "img/codey1.jpg"
+  "img/creammac.png",
+  "img/greenmac.png",
+  "img/starry.png"
 ];
 let titles = [
   "Seagull",
@@ -23,7 +23,7 @@ let titles = [
   "Pebbles",
   "Cream Macrame",
   "Green Macrame",
-  "Test"
+  "Starry Night Framed Crochet"
 ];
 let subtitles = [
   "Crochet toy",
@@ -35,7 +35,7 @@ let subtitles = [
   "Crochet toy",
   "Macrame",
   "Macrame",
-  "Test"
+  "Crochet"
 ];
 let details = [
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
@@ -47,7 +47,7 @@ let details = [
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
   "Cotton cord",
   "Cotton cord",
-  "Test"
+  "Framed in a shadow box"
 ];
 let secondaryImages = [
 "img/seagull.jpg",
@@ -59,21 +59,21 @@ let secondaryImages = [
   "img/pebbles.png",
   "img/creammac.jpg",
   "img/greenmac.jpg",
-  "img/codey1.jpg"
+  "img/starry.png"
 ];
-let startingPrices = [60, 60, 60, 40, 50, 20, 60, 40, 40,2];
-// Currently midday 24th November https://www.epochconverter.com/
+let startingPrices = [60, 60, 60, 40, 50, 20, 60, 40, 40, 30];
+// Currently 2pm 24th November https://www.epochconverter.com/
 let endTimes = [
-  1669244400000,
-  1669244400000,
-  1669244400000,
-  1669244400000,
-  1669244400000,
-  1669244400000,
-  1669244400000,
-  1669244400000,
-  1669244400000,
-  1668233372000
+  1669251600000,
+  1669251600000,
+  1669251600000,
+  1669251600000,
+  1669251600000,
+  1669251600000,
+  1669251600000,
+  1669251600000,
+  1669251600000,
+  1669251600000
 ]; // Make sure to fix these to UTC time so they don't change with the users timezone
 
 // Random auction information

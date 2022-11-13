@@ -63,7 +63,7 @@ let secondaryImages = [
   "img/pebbles.png",
   "img/creammac.png",
   "img/greenmac.png",
-  'img/pinkmac.png'
+  'img/pinkmac.png',
   "img/starry.png"
 ];
 let startingPrices = [60, 60, 60, 40, 50, 20, 60, 40, 40, 40, 30];

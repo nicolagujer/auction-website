@@ -41,17 +41,17 @@ let subtitles = [
   "Crochet"
 ];
 let details = [
-  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
-  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
-  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
-  "Acrylic yarn, embroidered eyes (baby safe!)",
-  "Cotton yarn, safety eyes (not recommended for ages 3 and under)",
-  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
-  "Acrylic yarn, safety eyes (not recommended for ages 3 and under)",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 26cm",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 24cm",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 29cm",
+  "Acrylic yarn, embroidered eyes (baby safe!). Height: 30cm",
+  "Cotton yarn, safety eyes (not recommended for ages 3 and under). Height: 18cm",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 20cm",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 29cm",
+  "Cotton cord. Height: 54cm",
+  "Cotton cord. Height: 52cm",
   "Cotton cord",
-  "Cotton cord",
-  "Cotton cord",
-  "Framed in a shadow box"
+  "Framed in a shadow box. Height: 35cm"
 ];
 let secondaryImages = [
 "img/seagull.jpg",

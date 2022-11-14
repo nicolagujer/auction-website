@@ -6,6 +6,7 @@ let primaryImages = [
   "img/raccoon.jpg",
   "img/duck.jpg",
   "img/penguin.jpg",
+  "img/bird.png",
   "img/codey.jpg",
   "img/mrmeeseeks.png",
   "img/pebbles.png",
@@ -19,6 +20,7 @@ let titles = [
   "Raccoon",
   "Duck",
   "Penguin Lovey/Security Blanket",
+  "Bird",
   "Codey",
   "Mr Meeseeks",
   "Pebbles",
@@ -28,6 +30,7 @@ let titles = [
   "Starry Night Framed Crochet"
 ];
 let subtitles = [
+  "Crochet toy",
   "Crochet toy",
   "Crochet toy",
   "Crochet toy",
@@ -45,12 +48,13 @@ let details = [
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 24cm",
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 29cm",
   "Acrylic yarn, embroidered eyes (baby safe!). Height: 30cm",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: ",
   "Cotton yarn, safety eyes (not recommended for ages 3 and under). Height: 18cm",
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 20cm",
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 29cm",
   "Cotton cord. Height: 54cm",
   "Cotton cord. Height: 52cm",
-  "Cotton cord",
+  "Cotton cord. Height: ",
   "Framed in a shadow box. Height: 35cm"
 ];
 let secondaryImages = [
@@ -58,6 +62,7 @@ let secondaryImages = [
   "img/raccoon.jpg",
   "img/duck.jpg",
   "img/penguin.jpg",
+  "img/bird.png",
   "img/codey1.jpg",
   "img/mrmeeseeks.png",
   "img/pebbles.png",
@@ -66,9 +71,10 @@ let secondaryImages = [
   'img/pinkmac.png',
   "img/starry.png"
 ];
-let startingPrices = [59, 59, 59, 39, 49, 19, 59, 39, 39, 39, 29];
+let startingPrices = [59, 59, 59, 39, 34, 49, 19, 59, 39, 39, 39, 29];
 // Currently 2pm 24th November https://www.epochconverter.com/
 let endTimes = [
+  1669251600000,
   1669251600000,
   1669251600000,
   1669251600000,

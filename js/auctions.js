@@ -71,7 +71,7 @@ let secondaryImages = [
   'img/pinkmac.png',
   "img/starry.png"
 ];
-let startingPrices = [59, 59, 59, 39, 34, 49, 19, 59, 39, 39, 39, 29];
+let startingPrices = [59, 59, 59, 39, 34, 39, 19, 59, 39, 39, 39, 29];
 // Currently 2pm 24th November https://www.epochconverter.com/
 let endTimes = [
   1669251600000,

@@ -222,7 +222,7 @@ function placeBid() {
       if (amount >= 1 + currentBid) {
         keyStem = itemId + ".bid" + (bids + 1)
         liveRef.update({
-          [keyStem + "-name"]: user.displayName,
+          [keyStem + "-uid"]: user.uid,
           [keyStem]: amount,
         })
         console.log("Database write from placeBid()")

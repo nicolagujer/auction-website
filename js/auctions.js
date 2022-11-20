@@ -48,13 +48,13 @@ let details = [
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 24cm",
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 29cm",
   "Acrylic yarn, embroidered eyes (baby safe!). Height: 30cm",
-  "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: ",
+  "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 20cm",
   "Cotton yarn, safety eyes (not recommended for ages 3 and under). Height: 18cm",
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 20cm",
   "Acrylic yarn, safety eyes (not recommended for ages 3 and under). Height: 29cm",
   "Cotton cord. Height: 54cm",
   "Cotton cord. Height: 52cm",
-  "Cotton cord. Height: ",
+  "Cotton cord. Height: 50cm",
   "Framed in a shadow box. Height: 35cm"
 ];
 let secondaryImages = [
